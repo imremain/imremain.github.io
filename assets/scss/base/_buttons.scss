@@ -1,0 +1,14 @@
+.btn-primary{
+    background-color: #6434c6;
+    border-color: #6434c6;
+    &:hover{
+        background-color: #6534c6b6;
+        border-color: #6534c6b6;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(152, 105, 228, 0.5);
+    background-color: #6434c6;
+    border-color: #6434c6;
+}

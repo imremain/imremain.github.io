@@ -1,0 +1,171 @@
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+header .header-icons-container {
+  width: 100%;
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  background-color: #792def;
+}
+
+header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+
+header .header-icons-container .icons a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-primary {
+  background-color: #6434c6;
+  border-color: #6434c6;
+}
+
+.btn-primary:hover {
+  background-color: #6534c6b6;
+  border-color: #6534c6b6;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus, .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(152, 105, 228, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(152, 105, 228, 0.5);
+  background-color: #6434c6;
+  border-color: #6434c6;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.text-accent {
+  color: #792def;
+}
+
+.home-main-text {
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 5px;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 90px;
+  background-color: #262a36;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+  width: 55px;
+  margin-top: 10px;
+}
+
+nav .profile-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 50px;
+}
+
+nav .profile-link a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
+nav:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-item a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-brand img {
+  max-width: 60px;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.home-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url("/assets/img/thresh-bg.jpg");
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.home-main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */

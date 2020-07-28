@@ -1,0 +1,145 @@
+.clean-block.clean-hero {
+  background-image: url(../../assets/img/thresh-bg.jpg);
+  color: rgba(100, 52, 198, 0.5);
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color: #262a36;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,0.7);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.5);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255,255,255,0.9);
+}
+
+* {
+  font-family: 'Oswald';
+}
+
+.logo {
+  max-width: 60px;
+}
+
+.clean-block.clean-hero h2 {
+}
+
+.text-info {
+  color: #6434c6!important;
+}
+
+.navbar-expand-md .navbar-nav {
+  font-size: 24px;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(100,52,198,0.4);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #262a36;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #6434c6;
+}
+
+@media (min-width:768px) {
+  .page-footer ul li:after, .page-footer ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: #6434c6;
+  }
+}
+
+.feature-box .icon {
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 30px;
+  text-align: center;
+  color: #6434c6;
+}
+
+.clean-card p {
+  opacity: .8;
+  font-size: 1em;
+  margin-bottom: .9em;
+}
+
+.clean-card h4 {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.card-img-top.w-100.d-block {
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #8959eb;
+  border-color: #6434c6;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(100,52,198,0.4);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #6434c6;
+  border-color: #6434c6;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
+.btn-outline-primary {
+  color: #6434c6;
+  border-color: #6434c6;
+}
+
+.page-footer.dark {
+  background-color: #262a36;
+}
+
+.page-footer.dark .footer-copyright {
+  background-color: #6434c6;
+  border-color: #6434c6;
+}
+
+.page-footer.dark .footer-copyright p {
+  color: #fff;
+}
+
